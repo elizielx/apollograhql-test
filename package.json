@@ -1,0 +1,19 @@
+{
+  "name": "apollograhql-test",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@graphql-tools/schema": "^10.0.0",
+    "graphql": "^15.3.0",
+    "graphql-scalars": "^1.22.4",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
